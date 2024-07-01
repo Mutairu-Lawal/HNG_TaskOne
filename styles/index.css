@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  background-color: #1a1d22;
+  list-style: none;
+  color: #ffffff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  max-width: 800px;
+  width: 100%;
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slack-Name {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 12px 0px;
+}
+
+.slackEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-envelope {
+  margin-right: 8px;
+}
+
+.current-time > * {
+  margin: 8px;
+}
+
+ul {
+  padding-left: 20px;
+}
+ul li {
+  margin: 12px;
+  list-style-type: square;
+}
+
+.links a {
+  display: block;
+  margin: 0.5em 0;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  padding: 1em;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>My Goals as a Frontend Developer</h1>
+      </header>
+    </div>
+    <div class="container">
+      <main>
+        <section class="profile">
+          <div class="centered">
+            <img
+              src="./myProfilePix.jpg"
+              alt="Slack Profile Picture"
+              data-testid="slackProfilePicture"
+            />
+
+            <p class="slack-Name" data-testid="slackDisplayName">
+              Lawal Mutairu
+            </p>
+
+            <p class="slackEmail" data-testid="slackEmail">
+              <i class="fa-solid fa-envelope"></i>
+              thebillionnairadream@outlook.com
+            </p>
+          </div>
+        </section>
+        <section class="current-time">
+          <h2><i class="fa-solid fa-clock"></i> Time :</h2>
+          <p data-testid="currentTimeUTC" id="currentTimeUTC"></p>
+          <p data-testid="currentDay" id="currentDay"></p>
+        </section>
+        <section class="goals">
+          <h2>Goals for the Next 2 Years</h2>
+          <ul>
+            <li>
+              Master advanced JavaScript concepts and frameworks such as React,
+              Angular or Vue.
+            </li>
+            <li>
+              Contribute to open-source projects to enhance my coding skills and
+              give back to the community.
+            </li>
+            <li>
+              Build a personal portfolio website showcasing all my projects.
+            </li>
+            <li>
+              Probably learn some backend technologies to become a full-stack
+              developer.
+            </li>
+            <li>
+              Network with other developers and participate in coding
+              communities.
+            </li>
+            <li>
+              Obtain a certification in frontend development to validate my
+              expertise.
+            </li>
+          </ul>
+        </section>
+        <section class="links">
+          <h2>Useful Links</h2>
+          <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+          <a href="https://keyword.dog" data-testid="keywordLink"
+            >Keyword Dog</a
+          >
+          <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+            >Scrape Any Web</a
+          >
+        </section>
+      </main>
+    </div>
+    <div class="container">
+      <footer>
+        <p>&copy; 2024 My Tech Goals</p>
+        <p>Designed by Lawal Mutairu (MT)</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
